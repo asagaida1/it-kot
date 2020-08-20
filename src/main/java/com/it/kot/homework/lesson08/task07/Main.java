@@ -17,6 +17,7 @@ public class Main {
         while(true){
             int number = Integer.parseInt(reader.readLine());
             if(number==-1){
+                result = result+number;
                 break;
             } else {
                 result=result+number;
