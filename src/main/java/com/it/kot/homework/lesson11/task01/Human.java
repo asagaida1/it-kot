@@ -4,16 +4,13 @@ public class Human {
     private String name;
     private boolean genderMan;
     private int age;
-    private Human fathe;
+    private Human father;
     private Human mother;
 
     public Human(String name, boolean genderMan, int age) {
         this.name = name;
         this.genderMan = genderMan;
         this.age = age;
-    }
-
-    public Human() {
     }
 
     public String getName() {
@@ -43,12 +40,12 @@ public class Human {
         return this;
     }
 
-    public Human getFathe() {
-        return fathe;
+    public Human getFather() {
+        return father;
     }
 
-    public Human setFathe(Human fathe) {
-        this.fathe = fathe;
+    public Human setFather(Human father) {
+        this.father = father;
         return this;
     }
 
@@ -63,12 +60,10 @@ public class Human {
 
     @Override
     public String toString() {
-        return "Human{" +
-                "Имя: " + name + '\'' +
+        return "Имя: " + name + '\'' +
                 ", пол: " + genderMan +
                 ", возраст: " + age +
-                ", отец: " + fathe +
-                ", мать: " + mother +
-                '}';
+                ", отец: " + father +
+                ", мать: " + mother;
     }
 }
