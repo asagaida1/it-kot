@@ -12,6 +12,5 @@ public class Main {
         Man igor = new Man("Igor", 19);
         lena.setHusband(igor);
         igor.setWife(lena);
-
     }
 }
