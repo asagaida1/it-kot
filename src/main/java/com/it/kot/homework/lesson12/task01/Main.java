@@ -19,6 +19,5 @@ public class Main {
         for (int i = 0; i <arr.length ; i++) {
             System.out.println(arr[arr.length-i-1]);
         }
-
     }
 }
